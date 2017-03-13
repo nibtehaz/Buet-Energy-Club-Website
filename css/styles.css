@@ -1,0 +1,35 @@
+/* Bismillahir Rahmanir Rahim */
+/* Rabbi Zidni Ilma */
+
+
+.navbar
+{
+    background-color: #5387c6 ;
+}
+
+.navbar-nav a
+{
+    color: white;
+    font-size: 16px;
+}
+
+.navbar-nav .active a,
+.navbar-nav .active a:hover
+{
+    background-color: #4fafcc;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.navbar-nav li a:hover
+{
+    background-color: #ea9898;
+    font-size: 18px;
+}
+
+
+
+.navbar-header
+{
+    color: white;
+}

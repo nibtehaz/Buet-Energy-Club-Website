@@ -28,8 +28,71 @@
 }
 
 
-
 .navbar-header
 {
+    color: white;
+}
+
+.article
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.article
+{
+    font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", "sans-serif";
+}
+
+.indexBackground
+{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* Standard syntax */
+
+}
+
+.article1
+{
+    background-color: #ee546c;
+    background: -webkit-linear-gradient(45deg,#f15079, #e8884e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg,#f15079, #e8884e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg,#f15079, #e8884e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg,#f15079, #e8884e); /* Standard syntax */
+}
+
+.article2
+{
+    background: #1675c6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#1675c6, #16c9a2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#1675c6, #16c9a2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#1675c6, #16c9a2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#1675c6, #16c9a2); /* Standard syntax */
+
+    color: white;
+}
+
+
+.article3
+{
+    background: #1675c6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* Standard syntax */
+
+    color: white;
+}
+
+.article4
+{
+    background: #1675c6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83)); /* Standard syntax */
+
     color: white;
 }

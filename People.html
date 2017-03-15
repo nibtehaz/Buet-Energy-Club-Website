@@ -14,12 +14,18 @@
 
         <link href="css/styles.css" rel="stylesheet">
 
+        <script	src="js/peopleScript.js"></script>
+
 
         <title>Buet Energy Club</title>
 
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Sanchez');
+        </style>
+
     </head>
 
-    <body>
+    <body class="peopleBody" onload= initialize() onmousewheel="scrolling(event)">
         	<nav class="navbar navbar-fixed-top myNavbar" role="navigation">
                 <div class="container">
 
@@ -50,7 +56,7 @@
                 </div>
             </nav>
 
-            <div class="jumbotron">
+            <div class="jumbotron" style="margin-top:5%">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -60,14 +66,164 @@
                 </div>
             </div>
 
-            <div class="container">
-                <u><h2 style="text-align:center;">About Buet Energy Club</h2></u>
-
-                <div class="row">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo cursus ante. Duis pretium eleifend scelerisque. Integer congue ex ac lacinia vulputate. Nunc ac orci quis purus pulvinar vestibulum sed quis magna. Etiam sit amet leo quis ex consectetur ornare. Phasellus tempor ante orci. Fusce diam diam, porttitor vitae augue in, feugiat fermentum ex. Curabitur accumsan pulvinar imperdiet. Quisque a turpis sit amet ipsum ultrices facilisis id non libero. Vestibulum cursus ligula id lectus mollis, sit amet tincidunt dui tempor. Ut dolor lorem, porta in dignissim non, scelerisque vel eros. Fusce ac enim sit amet risus sagittis malesuada. Phasellus aliquet volutpat egestas. Vivamus id scelerisque augue. Aliquam est turpis, mollis in ultrices vitae, pretium ac risus.
-                </div>
-
+            <div class="introPeople">
+                <u><h1 class=peopleHeader>Meet the Awesome People Behind the Club</h1></u>
             </div>
+
+            <div id="member1">
+                <div class="panel panel-info" style="width:100%">
+
+                    <div class="panel-heading" style="padding:1px">
+                        <h6 class="member_name">Yo</h6>
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                    <img class="media-object img-circle" src="img/yo.jpg" alt="Yo">
+                            </div>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">President</h4>
+                                <p>bla bla bla bla bla bla<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="member2">
+                <div class="panel panel-info" style="width:100%">
+
+                    <div class="panel-heading" style="padding:1px">
+                        <h6 class="member_name">Yo</h6>
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                    <img class="media-object img-circle" src="img/yo.jpg" alt="Yo">
+                            </div>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">President</h4>
+                                <p>bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="member3">
+                <div class="panel panel-info" style="width:100%">
+
+                    <div class="panel-heading" style="padding:1px">
+                        <h6 class="member_name">Yo</h6>
+                    </div>
+
+                    <div class="pannel-body">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                    <img class="media-object img-circle" src="img/yo.jpg" alt="Yo">
+                            </div>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">President</h4>
+                                <p>bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="member4">
+                <div class="panel panel-info" style="width:100%">
+
+                    <div class="panel-heading" style="padding:1px">
+                        <h6 class="member_name">Yo</h6>
+                    </div>
+
+                    <div class="pannel-body">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                    <img class="media-object img-circle" src="img/yo.jpg" alt="Yo">
+                            </div>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">President</h4>
+                                <p>bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="member5">
+                <div class="panel panel-info" style="width:100%">
+
+                    <div class="panel-heading" style="padding:1px">
+                        <h6 class="member_name">Yo</h6>
+                    </div>
+
+                    <div class="pannel-body">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                    <img class="media-object img-circle" src="img/yo.jpg" alt="Yo">
+                            </div>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">President</h4>
+                                <p>bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="member6">
+                <div class="panel panel-info" style="width:100%">
+
+                    <div class="panel-heading" style="padding:1px">
+                        <h6 class="member_name">Yo</h6>
+                    </div>
+
+                    <div class="pannel-body">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                    <img class="media-object img-circle" src="img/yo.jpg" alt="Yo">
+                            </div>
+
+                            <div class="media-body">
+                                <h4 class="media-heading">President</h4>
+                                <p>bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                    bla bla bla bla bla bla<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
 
         <script	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -25,7 +25,7 @@ function initialize()
     document.getElementById('member5').style.left="100%";
     document.getElementById('member6').style.left="-75%";*/
 
-    for(var i=1;i<=6;i++)
+    /*for(var i=1;i<=6;i++)
     {
         if(i%2==1)
         {
@@ -36,7 +36,7 @@ function initialize()
         {
             document.getElementById('member'+i.toString()).style.left="-75%";
         }
-    }
+    }*/
 
 
 }

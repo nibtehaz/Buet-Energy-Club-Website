@@ -1,0 +1,262 @@
+/* Bismillahir Rahmanir Rahim */
+/* Rabbi Zidni Ilma */
+
+
+.navbar
+{
+    background-color: #5387c6 ;
+}
+
+.navbar-nav a
+{
+    color: white;
+    font-size: 110%;
+}
+
+.navbar-nav li a:visited
+{
+    background: #5387c6 ;
+    color: white;
+}
+
+.navbar-nav .active ,
+.navbar-nav .active a:hover,
+.navbar-nav .active a:visited
+{
+    background: #4fafcc;
+}
+
+.navbar-brand
+{
+    color: #d9edf7;
+}
+
+.navbar-nav li a:hover
+{
+    background-color: rgb(64, 89, 179);
+}
+
+
+.navbar-header
+{
+    color: white;
+}
+
+.dropdown-toggle:visited
+{
+    background: #5387c6 ;
+}
+
+.dropdown-menu li a:hover
+{
+    background: rgb(64, 89, 179);
+    font-size: 16px;
+}
+
+
+
+.dropdown:target
+{
+    background: red;
+}
+
+.dropdown-menu
+{
+    background: rgba(83, 135, 198, 0.75);
+}
+
+.jumbotron
+{
+    margin-top: 5%;
+    margin-bottom: 0%;
+    height: 20%;
+}
+
+.article
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.article
+{
+    font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", "sans-serif";
+}
+
+.indexBody
+{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,rgba(25, 102, 218, 0.43), rgba(9, 184, 254, 0.38)); /* Standard syntax */
+
+}
+
+.article1
+{
+    background-color: #ee546c;
+    background: -webkit-linear-gradient(45deg,#f15079, #e8884e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg,#f15079, #e8884e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg,#f15079, #e8884e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg,#f15079, #e8884e); /* Standard syntax */
+}
+
+.article2
+{
+    background: #1675c6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#1675c6, #16c9a2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#1675c6, #16c9a2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#1675c6, #16c9a2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#1675c6, #16c9a2); /* Standard syntax */
+
+    color: white;
+}
+
+
+.article3
+{
+    background: #1675c6; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#213945, rgba(255, 251, 248, 0.44)); /* Standard syntax */
+
+    color: white;
+}
+
+.article4
+{
+    background: #1675c6;
+    background: -webkit-linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83));
+    background: -o-linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83));
+    background: -moz-linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83));
+    background: linear-gradient(left,rgba(94, 2, 59, 0.76), rgba(37, 6, 86, 0.83));
+
+    color: white;
+}
+
+
+.member_name
+{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.media-body
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#member1 , #member3 , #member5
+{
+    position: relative;
+    left: 10%;
+    width: 60%;
+
+}
+
+#member2 , #member4 , #member6
+{
+    position: relative;
+    left: 35%;
+    width: 60%;
+}
+
+
+
+.panel-body
+{
+    height: 2%;
+}
+
+.peopleHeader
+{
+    text-align:center;
+    font-family:"Sanchez";
+    padding-top: 0%;
+    padding-bottom: 12%;
+    font-size: 40px;
+}
+
+.blogHeading
+{
+    text-align: center;
+    font-size: 800%;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 0%;
+}
+
+.eventsHeading
+{
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 5%;
+}
+
+
+.blogBody
+{
+    background: #093028;
+    background: -webkit-linear-gradient(left, #093028 , #237A57);
+    background: linear-gradient(left, #093028 , #237A57);
+
+}
+
+.contactBody ,.contactJumbotron
+{
+    background: #16222A;
+    background: -webkit-linear-gradient(left, #16222A , #3A6073);
+    background: linear-gradient(left, #16222A , #3A6073);
+}
+
+.contactJumbotron , .blogJumbotron , .peopleJumbotron , .eventsJumbotron , .indexJumbotron
+{
+    margin-top:2%;
+    padding-bottom:0%;
+    padding-top:2%;
+}
+
+@media only screen and (max-width: 740px) {
+
+    .contactJumbotron , .blogJumbotron , .peopleJumbotron , .eventsJumbotron , .indexJumbotron
+    {
+        margin-top:10%;
+    }
+}
+
+
+
+.btnMail
+{
+    margin-left: 20%;
+    width: 20%;
+    background: #197579;
+    color: white;
+}
+
+.btnFeedback
+{
+    margin-left: 20%;
+    width: 25%;
+    background: #197579;
+    color: white;
+}
+
+.eventsBody
+{
+    background: #4b6cb7;
+    background: -webkit-linear-gradient(to left, #4b6cb7 , #182848);
+    background: linear-gradient(to left, #4b6cb7 , #182848);
+}
+
+.eventsJumbotron
+{
+    margin-bottom: 5%;
+}

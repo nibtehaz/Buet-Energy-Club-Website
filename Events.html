@@ -1,7 +1,6 @@
 <!doctype html>
-
-<!-- Bismillahir Rahmanir Rahim-->
-<!-- Rabbi Zidni Ilma-->
+<!--Bismillahir Rahmanir Rahim-->
+<!--Rabbi Zidni Ilma-->
 
 <html>
 
@@ -10,20 +9,22 @@
         <meta http-equiv="X-UA-Compatible"	content="IE=edge">
         <meta name="viewport" content="width=device-width, inital-scale=1">
 
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/myBootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
 
         <link href="css/styles.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
 
         <title>Buet Energy Club</title>
 
     </head>
 
-    <body>
-
+    <body class="eventsBody">
         <nav class="navbar navbar-fixed-top myNavbar" role="navigation">
             <div class="container">
-
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -32,35 +33,113 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand"	href="#">Buet Energy Club</a>
+                    <a class="navbar-brand"	href="index.html">Buet Energy Club</a>
                 </div>
 
                 <div id="navbar" class="navbar-collapse	collapse">
                     <ul	class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="People.html">Members</a></li>
-                        <li	class="active"><a href="#">Events</a></li>
+                        <li class="active"><a href="Events.html">Events</a></li>
                         <li><a href="Blog.html">Blog</a></li>
-                        <li><a href="#contactUs">Contact Us</a>
+                        <li><a href="Contact.html">Contact Us</a>
                     </ul>
                     <ul	class="nav navbar-nav navbar-right">
-                        <li><a href="#">Log In</a></li>
-                        <li><a href="#">Sign Up</a></li>
+                        <li><a data-toggle="modal" data-target="#login">Log In</a></li>
+                        <li><a data-toggle="modal" data-target="#signup">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
+        <header>
+            <div class="eventsJumbotron">
+                <img src="img/coverPhoto.jpg" width="80%" style="margin-left:10%"/>
+            </div>
+        </header>
 
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                        <img src="img/fromFB.jpg" class="img-responsive"/>
+        <h1 class="eventsHeading">Upcoming Events</h1>
+
+        <div class="panel-group" id="accordion" style="margin-bottom:20%">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#event1">Poster Presentation Contest on Awakening Awareness to Save Energy
+                  <span style="margin-left:2%;font-size:80%"><em><u>20th March, 2017</u></em></span></a>
+                </h4>
+              </div>
+
+              <div id="event1" class="panel-collapse collapse in">
+                <div class="panel-body"><div class="container">
+                    <div class="row">
+                        <div class="col-xs-5">
+                            <a href="event1.html" target="_blank">
+                                <img class="media-object img-thumbnail img-responsive" width="100%" src="img/event1.jpg" alt="Poster Competition">
+                            </a>
+                        </div>
+
+                        <div class="col-xs-7">
+
+                            <p>BUET Energy Club has always been a firm advocate of energy conservation and this year the club is planning to take things to the next level, by giving YOU the opportunity to express your creativity in the grandest 'Poster Presentation Contest' till date. If being part of the most competitive Poster Presentation Contest and receiving feedback from a respectable judging panel isn't enough, we are also bringing you a generous prize money worth a GRAND TOTAL OF 9K as icing on the cake. So let your creativity run wild and wow us if you can!</p>
+
+                            <p><a class="btn btn-primary btn-xs" target="_blank" href="event1.html">More &raquo;</a></p>
+                        </div>
+                    </div>
                     </div>
                 </div>
+              </div>
             </div>
         </div>
+
+
+        <div id="login" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title" style="text-align:center">Log In</h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container" style="width:100%">
+                        <div class="rows">
+                            <div class="col-xs-12">
+                                <h3 style="text-align:center">Feature Coming Soon</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <div id="signup" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title" style="text-align:center">Sign Up</h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container" style="width:100%">
+                        <div class="rows">
+                            <div class="col-xs-12">
+                                <h3 style="text-align:center">Feature Coming Soon</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
         <script	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script	src="js/bootstrap.min.js"></script>

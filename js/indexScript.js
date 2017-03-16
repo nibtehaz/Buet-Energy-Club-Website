@@ -1,8 +1,12 @@
 // Bismillahir Rahmanir Rahim
 // Rabbi Zidni Ilma
 
-var offsets;
+var offsetTops;
+var offsetBottoms;
 var currentState;
+var active = 1 ;
+var lowerLimit;
+var upperLimit;
 
 function initialization()
 {
@@ -16,40 +20,82 @@ function initialization()
 
     //alert(topHeight);
 
-    offsets = [];
+    offsetTops = [];
+    offsetBottoms = [];
 
     for(var i=0;i<arr.length;i++)
     {
-        offsets.push(arr[i].offsetTop-topHeight);
+        offsetTops.push(arr[i].offsetTop-topHeight);
+        offsetBottoms.push(arr[i].offsetHeight+arr[i].offsetTop-topHeight);
     }
 
-    //console.log(offsets);
+    console.log(offsetTops);
+    console.log(offsetBottoms);
 
-    currentState = -1 ;
+    currentState = -1;
+
 }
 
 function scroll(event)
 {
-    //console.log(event.wheelDelta);
 
-    //alert("hi");
+    return;
 
-    if(event.wheelDelta<0)
+
+    /*if(active==1)
     {
-        currentState++;
-
-        if(currentState>=offsets.length)
-        {
-            currentState=offsets.length-1;
-            return;
-        }
-
-        $('html,body').animate({scrollTop: offsets[currentState]});
+        active = 0;
     }
 
     else
     {
-        currentState--;
+        return;
+    }*/
+
+        //console.log("hi");
+        //console.log($(window).scrollTop());
+        //console.log(event.wheelDelta);
+
+
+    if(event.wheelDelta<0)
+    {
+        /*currentState++;
+
+        if(currentState>=offsetTops.length)
+        {
+            currentState=offsetTops.length-1;
+            return;
+        }*/
+
+        var currentScrollTop = $(window).scrollTop() ;
+
+        console.log(currentScrollTop);
+
+        if(currentState==-1)
+        {
+            $('html,body').animate({scrollTop: offsetTops[0]},500);
+            currentState = 0;
+        }
+
+        else
+        {
+            for(var i=1;i<offsetTops.length;i++)
+            {
+                if(((offsetBottoms[i-1]-100)<=currentScrollTop) && (currentScrollTop<=offsetTops[i]))
+                {
+                    if(currentState!=i)
+                    {
+                        $('html,body').animate({scrollTop: offsetTops[i]},500);
+                        currentState=i;
+                    }
+                }
+            }
+        }
+    }
+
+    else
+    {
+        /*currentState--;
 
         if(currentState<0)
         {
@@ -57,8 +103,38 @@ function scroll(event)
             return;
         }
 
-        $('html,body').animate({scrollTop: offsets[currentState]});
+        $('html,body').animate({scrollTop: offsetTops[currentState]},500);*/
+
+        var currentScrollTop = $(window).scrollTop() ;
+
+        //console.log(currentScrollTop);
+
+        if(currentState==0)
+        {
+            $('html,body').animate({scrollTop: 0},500);
+            currentState = -1;
+        }
+
+        else
+        {
+            for(var i=1;i<offsetTops.length;i++)
+            {
+                if((offsetBottoms[i-1]<=currentScrollTop) && (currentScrollTop<=offsetTops[i]))
+                {
+                    console.log(currentState);
+                    if(currentState!=(i-1))
+                    {
+                        $('html,body').animate({scrollTop: offsetTops[i-1]},500);
+                        currentState=i-1;
+                    }
+                    console.log(currentState);
+                }
+            }
+        }
+
     }
 
-    console.log(offsets[currentState]);
+    //console.log(offsetTops[currentState]);
+
+
 }

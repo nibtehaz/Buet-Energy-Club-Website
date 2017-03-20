@@ -103,9 +103,9 @@ function scrolling(event)
             document.getElementById('member1').style.left="100%";
             document.getElementById('member2').style.left="-75%";
             document.getElementById('member3').style.left="100%";
-            $("#member1").animate({left:'10%'},1200);
-            $("#member2").animate({left:'35%'},1200);
-            $("#member3").animate({left:'10%'},1200);
+            $("#member1").animate({left:'0%'},1200);
+            $("#member2").animate({left:'0%'},1200);
+            $("#member3").animate({left:'0%'},1200);
 
             $('html,body').animate({scrollTop: 625});
 
@@ -124,9 +124,9 @@ function scrolling(event)
             document.getElementById('member4').style.left="-75%";
             document.getElementById('member5').style.left="100%";
             document.getElementById('member6').style.left="-75%";
-            $("#member4").animate({left:'35%'},1200);
-            $("#member5").animate({left:'10%'},1200);
-            $("#member6").animate({left:'35%'},1200);
+            $("#member4").animate({left:'0%'},1200);
+            $("#member5").animate({left:'0%'},1200);
+            $("#member6").animate({left:'0%'},1200);
 
             $('html,body').animate({scrollTop: 1250},500);
         }
